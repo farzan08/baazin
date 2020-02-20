@@ -1,0 +1,65 @@
+.body {
+    direction: rtl;
+    font-family: IRANSans !important;
+}
+
+.persian {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+}
+
+.collaps-style {
+    display: flex;
+    flex-direction: row;
+    float: right !important;
+}
+
+.navbar-color {
+    background-color: hsl(204, 79%, 20%);
+    margin: 0px !important;
+	border-radius: 0px;
+}
+
+.nav-item-color {
+    color: hsl(51, 100%, 50%, 0.9);
+}
+
+.icon-color {
+    background-color: hsl(51, 100%, 50%, 0.5) !important;
+    border-color: black !important;
+    width: 50px;
+}
+
+.icon-bar {
+    /*rewrite*/
+    background-color: hsl(204, 79%, 20%);
+}
+
+.ul-style {
+    display: flex;
+    flex-wrap: wrap;
+}
+.alert-type{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .persian {
+        flex-direction: column;
+    }
+    .ul-style {
+        flex-direction: column;
+    }
+    .nav-head-mob {
+        display: flex;
+        flex-direction: row;
+    }
+    .mob-v {
+        display: flex;
+        flex-direction: column;
+    }
+}

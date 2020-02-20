@@ -1,0 +1,38 @@
+ .persian-profile {
+     display: flex;
+     flex-direction: column;
+     direction: rtl;
+ }
+ 
+ .persian-profile1 {
+     display: flex;
+     flex-direction: row;
+     direction: rtl;
+ }
+ 
+ .dis {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .h-rtl {
+     display: flex;
+     direction: rtl;
+ }
+ 
+ .bt-profile {
+     background-color: #0b3c5d !important;
+     color: gold !important;
+ }
+ 
+ .bt-input {
+     background-color: hsla(204, 79%, 20%, 0.9) !important;
+     color: gold !important;
+     border: 2px solid black !important;
+ }
+ 
+ @media screen and (max-width: 768px) {
+     .persian-profile1 {
+         flex-direction: column;
+     }
+ }

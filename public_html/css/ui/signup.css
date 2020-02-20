@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    background-color: #eee !important;
+    font-family: IRANSans !important;
+    background-size: cover;
+    direction: rtl;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    height: -webkit-fill-available;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    background-color: rgba(11, 60, 93, 0.849);
+}
+
+*[role="form"] h2 {
+    font-family: IRANSans !important;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.form-size {
+    display: flex;
+    flex-direction: column;
+}
+
+.per {
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    flex-direction: row;
+}
+
+.box-style {
+    padding: 5px;
+    margin: 5px;
+}

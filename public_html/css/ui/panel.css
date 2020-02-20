@@ -1,0 +1,26 @@
+body {
+    direction: rtl;
+    background-color: #eee !important;
+    font-family: IRANSans !important;
+}
+
+#exTab2 h3 {
+    color: gold;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.height-panel {
+    /*height: 100vh; */
+}
+
+.menu-tab {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 2px navy !important;
+}
+
+.bt-a {
+    border: 2px solid navy !important;
+    color: navy !important;
+}
